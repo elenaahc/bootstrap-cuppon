@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap'); */
+
+--root{
+    --color-titulo: #212529;
+    --color-desc: #707070;
+    --light: #F8F9FA;
+    --white: #FFF;
+    --color-oferta: #28A745;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LOGOS */
+.navbar-brand img, footer img{
+    height: 25px;
+}
+
+.card-title{
+    color: var(--color-titulo);
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.desc, .direccion{
+    color: var(--color-desc);
+}
+
+.desc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.direccion{
+    font-weight: 300;
+    font-size: 0.835rem;
+}
+
+.card-body span{
+    color: #28A745;
+    font-weight: 500;
+    margin-left: 45px;
+    font-size: 1.25rem;
+}
+
+.precios{
+    display: flex;
+    justify-content: end;
+}
+
+.precio{
+    font-weight: 300;
+    font-size: 1rem;
+}
+section h3{
+    font-size: 1.313;
+    font-weight: 500;
+}
+
+form{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+form button{
+    font-size: 1rem;
+}
+
+footer p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
